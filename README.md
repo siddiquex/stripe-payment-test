@@ -17,7 +17,12 @@ test_smthg_51INuQ0EVsCjvbcLcd9gU4whxH1Lx3g0KxtvxT7F6AAe1VZO26JwAztdiDdKoWypfLWnx
 https://your_instance/create-checkout-session
 ```
 
-3. Run dev server
+3. Install dependencies
+```nodejs
+npm install
+```
+
+4. Run dev server
 ```nodejs
 npm run dev
 ```
