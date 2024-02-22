@@ -1,0 +1,9 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+#checkout iframe {
+  border-radius: 20px;
+}
