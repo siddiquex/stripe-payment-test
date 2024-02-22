@@ -15,8 +15,6 @@ const App = () => {
   const [clientSecret, setClientSecret] = useState("");
 
   useEffect(() => {
-    console.log("stripePromise", stripePromise);
-    console.log("clientSecret", clientSecret);
     // Create a Checkout Session as soon as the page loads
     axios.post(import.meta.env.VITE_CREATE_CHECKOUT_SESSION_PATH)
       .then((res) => {
